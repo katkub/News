@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Technology News</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+    <!-- Text to display in the list when there are no tech news [CHAR LIMIT=NONE] -->
+    <string name="no_news">No news found. Please reload the app or check after some time.</string>
+    <string name="settings_section_key">section</string>
+    <string name="settings_menu_item" tools:keep="@string/settings_menu_item">Settings</string>
+    <string name="settings_title">Settings</string>
+
+    <!-- Strings For newsOnPage Preference [CHAR LIMIT=30] -->
+    <string name="settings_newsOnPage_label">News on page</string>
+    <string name="settings_newsOnPage_key" translatable="false">min_news</string>
+    <string name="settings_newsOnPage_default" translatable="false">@string/settings_10_label</string>
+
+    <!-- Strings for numbers of news displayed on page-->
+    <string name="settings_10_label">10</string>
+    <string name="settings_15_label">15</string>
+    <string name="settings_20_label">20</string>
+    <string name="settings_10_value">10</string>
+    <string name="settings_15_value">15</string>
+    <string name="settings_20_value">20</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Sttring for editText summary -->
+    <string name="summaryEdit">Please choose number of news you want to be displayed on a screen.</string>
+    <!-- Sttring for listPreference summary -->
+    <string name="summaryList">Please choose what kind of news you want to be displayed.</string>
+</resources>

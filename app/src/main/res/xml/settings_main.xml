@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    android:title="@string/settings_title"
+
+    <ListPreference
+        android:defaultValue="@string/settings_newsOnPage_default"
+        android:entries="@array/settings_newsOnPage_label"
+        android:entryValues="@array/settings_newsOnPage_value"
+        android:key="@string/settings_newsOnPage_key"
+        android:title="@string/settings_newsOnPage_label"
+        android:summary="@string/summaryEdit"/>
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/settings_order_by_label"
+        android:entryValues="@array/settings_order_by_value"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_label"
+        android:summary="@string/summaryList"/>
+</PreferenceScreen>
